@@ -21,6 +21,6 @@ google_plus_username:   # Replace this with your Google+ username
 facebook_username:      # Replace this with your Facebook username
 dribbble_username:      # Replace this with your Dribbble username
 email:                info@anthropoeng.tech
-hostname:             http://anthropoeng.tech/
+home:                 http://anthropoeng.tech/
 # Build settings  
 markdown: kramdown
