@@ -34,6 +34,14 @@
         <footer id="footer">
             <ul class="icons">
 
+              {% if site.home %}
+              <li>
+                <a href="http://anthropoeng.tech/" class="icon fa-home">
+                  <span class="label">Home</span>
+                </a>
+              </li>
+              {% endif %}
+
               {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
@@ -90,13 +98,7 @@
               </li>
               {% endif %}
 
-              {% if site.home %}
-              <li>
-                <a href="http://anthropoeng.tech/" class="icon fa-home">
-                  <span class="label">Home</span>
-                </a>
-              </li>
-              {% endif %}
+              
             </ul>
             <ul class="copyright">
                 <li>&copy; anthropoeng</li>
